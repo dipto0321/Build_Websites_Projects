@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
+	<title>MATH FUN GAME</title>
+	<link rel="stylesheet" href="assets/_css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/_css/main.css">
+</head>
+
+<body>
+	<div id="container">
+		
+		<div id="menu">
+			<div id="gmheader" class="center"><h4>GAME PLAY</h4></div>
+			<div class="center btn-group">
+				<button id="add" class="button" onclick="add_quiz()">addition</button>
+				<button id="sub" class="button" onclick="sub_quiz()">subtraction</button>
+				<button id="multi" class="button" onclick="multi_quiz()">multiplication</button>
+				<button id="divid" class="button" onclick="divide_quiz()">division</button>
+			</div>
+		</div>
+		<div id="main_board">
+			<div id="score">
+				<p>Score: <span id="score_val">100</span></p>
+			</div>
+			<div id="correct">
+				<p class="font_style_p">Correct!</p>
+			</div>
+			<div id="wrong">
+				<p class="font_style_p">Try Again!</p>
+			</div>
+			<div id="QA_Box">
+				<div id="question_display"></div>
+				<div id="instruction">Click on the right answer</div>
+				<div id="choices">
+					<div id="opt1" class="box"></div>
+					<div id="opt2" class="box"></div>
+					<div id="opt3" class="box"></div>
+					<div id="opt4" class="box"></div>
+				</div>
+				<div id="start_reset">Start Game</div>
+			</div>
+			
+			<div id="time_remaining">
+				Time Remaining: <span id="time_val"></span> sec
+			</div>
+			<div id="game_over">
+				<p>GAME OVER!</p>
+				<p>Your Score is <span id="total_score"></span></p>
+			</div>
+		</div>	
+	</div>
+	<script src="assets/_js/scripts.js"></script>
+</body>
+</html>
