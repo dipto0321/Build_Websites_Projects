@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	margin: 0 auto;
+	width: auto;
+	
+}
+#header{
+	background-color: #2D3E50;
+	color: white;
+	height: 20%;
+	text-align: center;
+	width: 50%;
+	font-weight: 700;
+	line-height: normal;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+#body{
+	background-color: #2D3E50;
+	width: 50%;
+	height: 600px;
+	
+}
+#life{
+	background-color: #FDCA6E;
+	width: 150px;
+	height: 20px;
+	padding: 10px;
+	float: left;
+	margin: 10px 0 0 10px;
+	display: none;
+	text-align: center;
+}
+#life_img{
+	width : 25px;
+	height : 25px;
+	padding: 0 5px;
+}
+#score{
+	background-color: #0984E2;
+	width: 150px;
+	height: 20px;
+	padding: 10px;
+	float: right;
+	margin: 10px 10px 0 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-align: right;	
+}
+#main_board{
+	width: 650px;
+	height: 400px;
+	background-color: #fff;
+	margin: 0px auto;
+	position: relative;
+	top: 20px;
+	overflow: hidden;
+}
+#fruits{
+	display: none;
+	position: absolute;
+}
+#start_stop{
+	background-color: #0984E2;
+	width: 150px;
+	height: 20px;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	transition: background-color .2s,color .2s;
+	cursor: pointer;
+	position: relative;
+	top: 55px;
+}
+#start_stop:hover{
+	background-color: #fff;
+	color:#0984E2;	
+}
+
+#time_remaining{
+	background-color: #E27055;
+	width: 200px;
+	height: 20px;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	left: 515px;
+	top: 55px;
+	display: none;
+}
+#gameover{
+	width: 350px;
+	height: 150px;
+	background-color: #E27055;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	bottom: 315px;
+	padding: 10px;
+	display: none;
+}
+#gameover h3{
+	color: #fff;
+	font-size: 50px;
+	line-height: 10px;
+}
+#gameover p{
+	color: #fff;
+	font-size: 25px;
+	line-height: 5px;
+}

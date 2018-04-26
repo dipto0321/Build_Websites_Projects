@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fruit Slicing Game</title>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<div>
+		<div id="header" class="container">
+			<h1>FRUIT SLICING GAME</h1>
+		</div>
+		<div id="body" class="container">
+			<div id="life"></div>
+			<div id="score">
+				Score: <span id="scoreVal">0</span>
+			</div>
+			<div id="main_board">
+				<img id="fruits" alt="">
+			</div>
+			<div id="start_stop">START GAME</div>
+			<div id="time_remaining">Time Remaining: <span id="timeVal">60s</span></div>
+			<div id="gameover">
+				<h3>GAME OVER</h3>
+				<p>Your score is <span id="finalScoreVal">0</span></p>
+			</div>
+			<audio id="grabSound">
+				<source src="assets/audio/grab.ogg" type="audio/ogg">
+				<source src="assets/audio/grab.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</div>
+	
+	<script src="assets/javascripts/gameActions.js"></script>
+</body>
+</html>

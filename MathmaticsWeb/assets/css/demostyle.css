@@ -1,0 +1,126 @@
+/* CSS Document */
+body{
+	height: 100%
+}
+.container{
+	width: 80%;
+    display: block;
+    justify-content: center;
+    margin: 10px auto;
+    overflow: auto;
+}
+.one{
+	color: white;
+	width: 99%;
+	background: #1abc9c;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+	
+}
+
+.one:hover{
+	color: #e74c3c;
+	background: white;
+}
+
+.two{
+	color: white;
+	width: 49%;
+	background: #2ecc71;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+	opacity: 0.5;
+	
+}
+
+.two:hover{
+	opacity: 1;
+}
+
+.three{
+	color: white;
+	width: 49%;
+	background: #e74c3c;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+	transition: width 1s;
+}
+.three:hover{
+	width: 200px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 130px;
+}
+.four{
+	color: white;
+	width: 32%;
+	background: #3498db;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+}
+
+.five{
+	color: white;
+	width: 32%;
+	background: #f1c40f;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+}
+.six{
+	color: white;
+	width: 32%;
+	background: #d35400;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+	clear: right;
+	
+}
+.seven{
+	color: white;
+	width: 24%;
+	background: #34495e;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+}
+.eight{
+	color: white;
+	width: 24%;
+	background: #16a085;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+}
+
+.nine{
+	color: white;
+	width: 24%;
+	background: #f39c12;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+}
+.ten{
+	color: white;
+	width: 23%;
+	background: #95a5a6;
+	padding: 5px 0px 10px 10px;
+	margin: 15px auto;
+	display: inline-block;
+}
+#onboard{
+	background-image: url(../images/bg.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: auto;
+}
+
