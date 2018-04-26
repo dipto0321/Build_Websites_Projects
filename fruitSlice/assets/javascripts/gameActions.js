@@ -23,11 +23,11 @@ $(function(){
 			time = 15;
 			addlife();
 			startAction();
-			
+			grabTheFruit();
 		}
 	});
 });
-grabTheFruit();
+
 //Functions
 
 function addlife(){
@@ -44,19 +44,21 @@ function startAction(){
 	step = 1+Math.round(5*Math.random());
 			action = setInterval(function(){
 				$("#fruits").css('top', $("#fruits").position().top+step);
-				if($("#fruits").position().top > $("#fruits").height()){
+				
+				if($("#fruits").position().top > $("#main_board").height()){
 					if(trials >= 1){
+						console.log("I am in\n");
 						randomFruitsGen();
 						--trials;
 						addlife();
+						
 					}else{
 						playStatus = false;
 						$("#start_stop").html("START GAME");
 						$("#finalScoreVal").html(score);
 						$("#gameover").show();
 						$("#life").hide();
-						stopFruit();
-						
+						stopFruit();						
 					}
 				}
 			},time);
@@ -71,8 +73,9 @@ function randomFruitsGen(){
 	"use strict";
 	$("#fruits").show();
 	chooseFruits();
-	$("#fruits").css({'left':Math.round(Math.random*400),'top':-50});
+	$("#fruits").css({'left':Math.floor(550*Math.random()),'top':-50});
 }
+
 function stopFruit(){
 	"use strict";
 	clearInterval(action);
@@ -86,8 +89,7 @@ function grabTheFruit(){
 		$("#scoreVal").html(score);
 		$("#grabSound")[0].play();
 		clearInterval(action);
-		$("#fruits").hide("explode",500);
-		setTimeout(startAction,500);
-		
+		$("#fruits").hide("explode",300);
+		setTimeout(startAction,300);
 	});
 }
