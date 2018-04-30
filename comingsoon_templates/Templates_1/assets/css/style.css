@@ -1,0 +1,38 @@
+body {
+    background: url(../images/bg.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+#info {
+    background: rgba(52, 73, 94, 0.5);
+    width: auto;
+    height: auto;
+    margin: 15% auto 0 auto;
+    padding: 30px;
+}
+
+#info h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    width: 35%;
+}
+
+#info p {
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+}
+
+.fas {
+    transform: rotate(-45deg);
+}

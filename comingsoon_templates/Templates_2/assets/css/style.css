@@ -1,0 +1,47 @@
+/*Custom Styles*/
+/*Custom Styles*/
+body{
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background: rgba(255, 118, 117,0.7);
+    margin: 15% auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+i{
+    color: #dff9fb;
+    font-size: 4em;
+    padding-top: 20px;
+}
+h1{
+    color: #dff9fb;
+    font-size: 6em;
+    padding: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+}
+p{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+}
+button{
+    background: #dff9fb;
+    color: #0984e3;
+    padding: 10px;
+    font-size: 4em;
+    font-weight: 500;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background: #0984e3;
+    color: #dff9fb;
+}
