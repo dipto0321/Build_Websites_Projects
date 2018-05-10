@@ -1,0 +1,48 @@
+/*Custom Styles*/
+body{
+    background: url(../images/bg.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-color: #34495E;
+    
+}
+.center{
+    text-align: center;
+    margin: 20% auto;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .active{
+    background-color: #E74C3C;
+    border-radius: 3px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: rgba(231,76,60,0.5);
+    color: #fff;
+    border-radius: 3px;
+}
+.row{
+    color: #fff;
+}
+
+.btn-success{
+    background-color: #2980B9;
+    border: none;
+}
+.btn-success:hover{
+    background-color: rgba(41,128,185,0.5);
+}
+
+h2{
+    font-size: 4rem;
+}
