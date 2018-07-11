@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Starter Template</title>
+
+    <!--    Bootstrape CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!--    bootwatch CDN-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+    <!--    Font-awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--    Custom css file-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container text-center">
+            <h1>color guessing game<br> <span id="colorDisplay">RGB</span></h1>
+        </div>
+    </div>
+    <div id="stripe">
+        <div class="container text-center">
+            <button type="button" id="reset" class="btn btn-outline-primary">NEW GAME!</button>
+            <span id="ansStatus"></span>
+            <button type="button" id="easy" class="btn btn-outline-info">EASY</button>
+            <button type="button" id="medium" class="btn btn-outline-info">MEDIUM</button>
+            <button type="button" id="hard" class="btn btn-outline-info">HARD</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card" style="width: 38rem; margin: 0 auto;">
+            <div id="boxWraper" class="card-body">
+
+            </div>
+        </div>
+    </div>
+    <!--Bootstrape JS, Popper.js, and jQuery-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!--Custom js scripts-->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

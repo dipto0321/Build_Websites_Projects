@@ -1,0 +1,53 @@
+body {
+  /* padding: 18px; */
+  background-color: rgba(236, 240, 241, 0.5);
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+}
+.carousel-caption {
+  background-color: rgba(52, 73, 94, 0.5);
+}
+
+.team-member {
+  margin-top: 40%;
+  text-align: center;
+}
+.team-member h5 {
+  margin-top: 10px;
+}
+.border {
+  padding: 10px;
+}
+
+.content {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.left-content {
+  padding-top: 50px;
+}
+footer {
+  background-color: rgba(52, 73, 94, 0.5);
+  height: 40%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+footer p {
+  padding: 20px;
+}
