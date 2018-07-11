@@ -4,8 +4,6 @@ Hi there, Here are all practice projects of front-end website developed by me wh
 
 ## All Projects Demo Link ar Given Below:
 
----
-
 1.  [Color Game][s1]
 2.  [Coming Soon Template][s2]
 3.  [Company Site Demo][s3]
