@@ -13,8 +13,7 @@ Hi there, Here are all practice projects of front-end website developed by me wh
 7.  [Math Teach Blog ][s7]
 8.  [Landing Page 1][s8]
 9.  [Portfolio Template ][s9]
-10.  [Portfolio Template ][s9]
-11.  [Portfolio Template ][s10]
+10.  [CSS3 Demo Site Flexbox][s10]
 
 [s1]: https://rawgit.com/dipto0321/Build_Websites_Projects/master/Color%20Game/index.html
 [s2]: https://rawgit.com/dipto0321/Build_Websites_Projects/master/comingsoon_templates/index.html
