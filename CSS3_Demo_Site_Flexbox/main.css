@@ -1,0 +1,159 @@
+/* Basic CSS */
+
+body {
+  background-color: #edeec0;
+  font-family: "Space Mono", monospace;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* Header Nav Styles */
+
+header {
+  background: linear-gradient(
+    rgba(253, 203, 110, 0.281),
+    rgba(255, 234, 167, 0.315)
+  );
+  border-bottom: 2px solid #edfede;
+}
+
+header nav li {
+  list-style: none;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #6c5ce7;
+  font-family: "BioRhyme", serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+header nav li a:hover {
+  opacity: 1;
+}
+
+.nav-container,
+.nav-container > ul {
+  display: flex;
+  flex-direction: column;
+}
+.nav-container > .nav-search {
+  margin: 15px 0 15px 15px;
+}
+
+.nav-container > .nav-search > input {
+  width: 220px;
+  height: 25px;
+  padding: 5px;
+  border: 2px solid #0984e3;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 600px;
+}
+
+main > * {
+  margin: 10px;
+}
+
+main > article > img {
+  width: 350px;
+}
+
+article {
+  /* background-color: green; */
+  flex: 2;
+}
+article > h2 {
+  font-size: 2em;
+  color: #0984e3;
+  margin-bottom: 15px;
+}
+article > p {
+  text-align: justify;
+}
+
+aside {
+  flex: 1;
+  min-height: 200px;
+  border-top: 2px solid #74b9ff;
+}
+aside > section {
+  display: flex;
+  margin: 15px 5px;
+  background-color: #edfede;
+  height: 165px;
+}
+aside > section > img {
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin-top: 30px;
+  border: 1px solid #cec5c5;
+  border-radius: 5px;
+}
+aside > section > div > * {
+  padding: 5px;
+}
+aside > section > div > h4 {
+  margin-bottom: -5px;
+}
+aside > section > div > p {
+  margin: 0;
+  font-size: 0.85em;
+}
+aside > section > div > a {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #0984e3;
+}
+footer {
+  background: linear-gradient(
+    rgba(253, 203, 110, 0.281),
+    rgba(255, 234, 167, 0.315)
+  );
+}
+footer > div {
+  padding: 20px;
+  text-align: center;
+}
+
+@media all and (min-width: 641px) {
+  .nav-container > .nav-search {
+    margin-left: auto;
+  }
+  .nav-container,
+  .nav-container > ul,
+  main {
+    flex-direction: row;
+  }
+  main > article > img {
+    width: 800px;
+  }
+  aside {
+    border: none;
+    border-left: 2px solid #74b9ff;
+  }
+}
